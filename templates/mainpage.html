@@ -1,0 +1,23 @@
+{%  extends "layout.html" %}
+{% block content %}
+     <h1 class="heading">The Image with the text dispalyed</h1>
+     <!-- <p>{{img}}</p> -->
+  
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img class="newimage" src="{{img}}" alt="" width="400" height="400">
+            </div>
+
+            <div class="col">
+                <p class="text">{{text}}</p>
+            </div>
+              
+          
+        </div>
+      
+
+    </div>
+    
+
+{% endblock content %}

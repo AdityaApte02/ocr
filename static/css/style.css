@@ -1,0 +1,35 @@
+body{
+    background-color:burlywood;
+}
+
+.mb{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 40px;
+    color: brown;
+}
+
+.btn{
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 0,10px,0,10px;
+}
+
+
+.container{
+    margin-top: 100px;
+    /* align-content: center; */
+}
+
+.text{
+    font-size: 25px;
+    
+}
+
+.heading{
+    text-align: center;
+    color: brown;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}

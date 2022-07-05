@@ -1,0 +1,17 @@
+{%  extends "layout.html" %}
+{% block content %}
+<div class="mb">
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+    
+        <label for="formFileDisabled" class="form-label">Select the Image</label>
+        <input class="form-control" type="file" id="formFileDisabled" name="image">
+        
+
+        <button type="submit" class="btn btn-primary">Upload</button>
+    </form>
+   
+   
+</div> 
+
+{% endblock content %}
+
